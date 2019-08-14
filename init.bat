@@ -1,3 +1,8 @@
+echo WARNING: In case the push command fails, and you need to change your registered account on your computer (Windows)
+echo Do the following:
+echo Control Panel >> User Account >> Credential Manager >> Windows Credential >> Generic Credential
+echo Make sure to delete the Git registered line.
+echo ----
 echo Initializing Identity for New Machine
 git config --global user.email "stephenkairos.reyes@sjsu.edu"
 git config --global user.name "StephenKairos"

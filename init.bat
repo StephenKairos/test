@@ -4,7 +4,7 @@ echo Control Panel >> User Account >> Credential Manager >> Windows Credential >
 echo Make sure to delete the Git registered line.
 echo ----
 echo Initializing Identity for New Machine
-git config --global user.email "stephenkairos.reyes@sjsu.edu"
+git config --global user.email "stephenkairos.reyes@gmail.com"
 git config --global user.name "StephenKairos"
 echo Dummy File to Force Login Sequence > dummy.txt
 git add .

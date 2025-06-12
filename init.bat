@@ -1,4 +1,5 @@
 @echo off
+echo $_
 echo WARNING: In case the push command fails, and you need to change your registered account on your computer (Windows)
 echo Do the following:
 echo Control Panel >> User Account >> Credential Manager >> Windows Credential >> Generic Credential

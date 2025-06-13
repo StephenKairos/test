@@ -27,4 +27,4 @@ del datetime.txt
 git pull origin master
 git push origin master
 echo ----
-echo Git Identity Assignment Completed.
+echo [42mGit Identity Assignment Completed.

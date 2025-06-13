@@ -1,11 +1,12 @@
 @echo off
+cls
 echo ----
 echo [93mWARNING[97m: In case the push command fails, and you need to change your registered account on your computer (Windows)
 echo Do the following:
 echo Control Panel >> User Account >> Credential Manager >> Windows Credential >> Generic Credential
 echo Make sure to delete the Git registered line.
 echo ----
-echo Initializing Identity for New Machine
+echo [93mInitializing Identity for New Machine[97m
 git config --global user.email "stephenkairos.reyes@gmail.com"
 git config --global user.name "StephenKairos"
 echo Dummy File to Force Login Sequence > dummy.txt
@@ -25,3 +26,5 @@ git commit -F datetime.txt
 del datetime.txt
 git pull origin master
 git push origin master
+echo ----
+echo Git Identity Assignment Completed.
